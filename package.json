@@ -1,0 +1,25 @@
+{
+  "name": "aws_post_xml_echo",
+  "version": "1.0.0",
+  "description": "Application to return a valid XML as Echo from input",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chintoz/aws_post_xml_echo.git"
+  },
+  "keywords": [
+    "xml",
+    "node",
+    "echo",
+    "post"
+  ],
+  "author": "Jacinto J. Mena Lomeña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chintoz/aws_post_xml_echo/issues"
+  },
+  "homepage": "https://github.com/chintoz/aws_post_xml_echo#readme"
+}
