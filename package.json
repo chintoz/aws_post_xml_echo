@@ -2,7 +2,7 @@
   "name": "aws_post_xml_echo",
   "version": "1.0.0",
   "description": "Application to return a valid XML as Echo from input",
-  "main": "/server/server.js",
+  "main": "./server/server.js",
   "scripts": {
     "test": "test",
     "start": "node ./server/server.js",
@@ -22,7 +22,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "~4.15.2",
-    "body-parser": "~1.17.1"
+    "body-parser": "~1.17.1",
+    "body-parser-xml": "1.1.0"
   },
   "bugs": {
     "url": "https://github.com/chintoz/aws_post_xml_echo/issues"
