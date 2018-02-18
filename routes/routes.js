@@ -3,8 +3,8 @@ var router = express.Router();
 
 /* POST operation */
 router.post("/xml", function(req, res){
-    console.log("Se recibe la peticion: " + req.body);
-    res.status(200).send("XML RESPUESTA");
+    res.setHeader('Content-Type', 'text/xml');
+    res.end(req.body);
 });
 
 module.exports = router;

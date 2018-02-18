@@ -6,8 +6,9 @@ var routes = require('./routes/routes');
 var app = express();
 
 // Configure routing
-app.use('/', routes);
+app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.xml());
+app.use('/xml', routes);
 
 
 // export app as a global variable
